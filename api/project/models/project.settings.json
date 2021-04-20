@@ -1,0 +1,62 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "name": "Project",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Project_Title": {
+      "type": "string"
+    },
+    "Project_Subtitle": {
+      "type": "richtext"
+    },
+    "Author": {
+      "type": "string"
+    },
+    "BIM": {
+      "type": "text"
+    },
+    "Project_Owner": {
+      "type": "text"
+    },
+    "Project_Manager": {
+      "type": "text"
+    },
+    "Mission": {
+      "type": "text"
+    },
+    "SDP": {
+      "type": "text"
+    },
+    "Amount": {
+      "type": "text"
+    },
+    "Delivery": {
+      "type": "text"
+    },
+    "Pictures": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Order": {
+      "type": "integer"
+    },
+    "Project_insert_title": {
+      "type": "string"
+    }
+  }
+}

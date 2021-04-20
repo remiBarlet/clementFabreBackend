@@ -1,0 +1,44 @@
+{
+  "kind": "singleType",
+  "collectionName": "profils",
+  "info": {
+    "name": "Profil",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Perfil_Picture": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Self_Presentation_Title": {
+      "type": "string"
+    },
+    "Self_Presentation_Text": {
+      "type": "richtext"
+    },
+    "Work_Experience_Title": {
+      "type": "string"
+    },
+    "Work_Experience_Text": {
+      "type": "richtext"
+    },
+    "Education_Title": {
+      "type": "string"
+    },
+    "Education_Text": {
+      "type": "richtext"
+    }
+  }
+}

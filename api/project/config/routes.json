@@ -25,6 +25,11 @@
       }
     },
     {
+      "method": "GET",
+      "path": "/projectsSlugs",
+      "handler": "projectCustom.slugsIdsTitlesOrder"
+    },
+    {
       "method": "POST",
       "path": "/projects",
       "handler": "project.create",

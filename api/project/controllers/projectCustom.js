@@ -21,6 +21,7 @@ module.exports = {
             //pushing the custom entitie to the array to be returned
             projectsSlugs.push(project) 
         })
+        projectsSlugs.sort(function(a, b){return a['Order']-b['Order']})
         ctx.send(projectsSlugs)
     }
 };

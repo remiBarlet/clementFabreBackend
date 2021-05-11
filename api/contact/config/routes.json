@@ -9,6 +9,11 @@
       }
     },
     {
+      "method": "GET",
+      "path": "/socialNetworks",
+      "handler": "contactCustom.findSocialNetworks"
+    },
+    {
       "method": "PUT",
       "path": "/contact",
       "handler": "contact.update",

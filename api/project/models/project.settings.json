@@ -53,7 +53,8 @@
       "required": false
     },
     "Order": {
-      "type": "integer"
+      "type": "integer",
+      "unique": true
     },
     "Project_insert_title": {
       "type": "string"

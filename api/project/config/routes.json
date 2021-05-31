@@ -28,6 +28,11 @@
       "method": "GET",
       "path": "/projectsSlugs",
       "handler": "projectCustom.slugsIdsTitlesOrder"
+    },    
+    {
+      "method": "GET",
+      "path": "/projectsCustom",
+      "handler": "projectCustom.findAllCustom"
     },
     {
       "method": "POST",

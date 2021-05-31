@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_info_container_info_tables",
+  "info": {
+    "name": "infoTable",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "Author": {
+      "type": "string"
+    },
+    "BIM": {
+      "type": "string"
+    },
+    "Project_Owner": {
+      "type": "string"
+    },
+    "Project_Manager": {
+      "type": "string"
+    },
+    "Mission": {
+      "type": "string"
+    },
+    "SDP": {
+      "type": "string"
+    },
+    "Amount": {
+      "type": "string"
+    },
+    "Delivery": {
+      "type": "string"
+    },
+    "Project_infoTable_Title": {
+      "type": "string"
+    }
+  }
+}

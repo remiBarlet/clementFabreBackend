@@ -22,14 +22,9 @@
       "plugin": "upload",
       "required": false
     },
-    "Address_line1": {
-      "type": "string"
-    },
-    "Address_line2": {
-      "type": "string"
-    },
-    "Address_line3": {
-      "type": "string"
+    "Meta_Title": {
+      "type": "string",
+      "maxLength": 60
     },
     "Phone": {
       "type": "string"
@@ -42,6 +37,13 @@
     },
     "Instagram": {
       "type": "string"
+    },
+    "Address": {
+      "type": "richtext"
+    },
+    "Meta_Description": {
+      "type": "string",
+      "maxLength": 155
     }
   }
 }

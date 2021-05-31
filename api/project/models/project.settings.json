@@ -17,30 +17,6 @@
     "Project_Subtitle": {
       "type": "richtext"
     },
-    "Author": {
-      "type": "string"
-    },
-    "BIM": {
-      "type": "text"
-    },
-    "Project_Owner": {
-      "type": "text"
-    },
-    "Project_Manager": {
-      "type": "text"
-    },
-    "Mission": {
-      "type": "text"
-    },
-    "SDP": {
-      "type": "text"
-    },
-    "Amount": {
-      "type": "text"
-    },
-    "Delivery": {
-      "type": "text"
-    },
     "Pictures": {
       "collection": "file",
       "via": "related",
@@ -56,12 +32,14 @@
       "type": "integer",
       "unique": true
     },
-    "Project_insert_title": {
-      "type": "string"
-    },
     "Slug": {
       "type": "uid",
       "targetField": "Project_Title"
+    },
+    "Info": {
+      "type": "component",
+      "repeatable": false,
+      "component": "info-container.info-table"
     }
   }
 }

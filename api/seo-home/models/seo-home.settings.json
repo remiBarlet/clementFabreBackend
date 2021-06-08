@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "seo_homes",
+  "info": {
+    "name": "SEO_HOME",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Meta_Title": {
+      "type": "string",
+      "maxLength": 60
+    },
+    "Meta_Description": {
+      "type": "string",
+      "maxLength": 155
+    }
+  }
+}
